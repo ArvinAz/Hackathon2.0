@@ -1,0 +1,170 @@
+.TheBlog{
+    max-width: 75px;
+    max-height: 75px;
+    
+}
+.TheBlog:hover{
+    background: url("download.png");
+    
+}
+html {
+    background-color:cornflowerblue;
+    text-align: center;
+}
+
+.blogHeader{
+    background-color: blanchedalmond;
+}
+.title{
+    display: flex;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(26, 61, 167);
+    
+    color: white;
+  }
+.troll{
+  text-align: center;
+  background-color: blueviolet;
+}  
+
+  .enterData {
+    background-color: darkblue;
+    color: aquamarine;
+    padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 20px;
+  max-height: 1000px;
+  }
+  .peoplelaughing{
+    max-width: 250px;
+    max-height: 200px;
+  }
+.container-maintext{
+  
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 20px;
+  max-height: 1000px;
+}
+#Library {
+  background-image: url('the Blog.png');
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+
+#Library:hover {
+  background-image: url('download.png');
+  background-size: 90% 90%;
+}
+
+.luckyuser{
+  background-color: gold;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333; /* Text color */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+}
+
+
+
+
+
+.heading{
+    position: relative;
+    text-align: center;
+    font-size: 55px;
+
+}
+
+.boxText{
+
+font-size: 25px;
+
+}
+
+.box{
+  background-color: #add8e6; /* Light Blue */
+  /* Additional styling if needed */
+  
+  border-radius: 10px;
+    display: inline-block;
+    width: 450px;
+    height: 700px;
+    border-color: black;
+    border: solid;
+    border-width: 3px;
+
+
+    
+    
+}
+
+.container  {
+    text-align: center;
+  }
+
+
+.image{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.review {
+  border: solid;
+  border-width: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+.user-info {
+  border: solid;
+  border-width: 3px;
+  margin: 3px;
+}
+
+footer{
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: block;
+}
